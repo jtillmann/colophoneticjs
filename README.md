@@ -1,4 +1,4 @@
-# Colophonetics
+# Colophonetic
 
 A JavaScript-based implementation of the Cologne Phonetics algorithm. It is one of the phonetic algorithms suited for the German language. More information on it can be found on the [German Wikipedia page](http://de.wikipedia.org/wiki/Kölner_Phonetik). Words that sound similar but may be written completely differently are represented by the same numerical sequence.
 
@@ -6,7 +6,7 @@ One example is the popular German name "Meier" which may also be written "Mayr".
 
 ## Usage
 
-The script extends the String object with the `colophonetics` method. 
+The script extends the String object with the `colophonetics()` method. 
 
 	// Wikipedia's example:
 	var string = "Müller-Lüdenscheidt";
