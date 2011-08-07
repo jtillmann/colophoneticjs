@@ -1,5 +1,5 @@
 
-String.prototype.colognePhonetics = (function(){
+String.prototype.colophonetics = (function(){
 
 	var substitution = {'ä': 'a', 'ö': 'o', 'ü': 'u', 'ß': 'ss', 'ph': 'f'}
 	var exceptions_leading = {
